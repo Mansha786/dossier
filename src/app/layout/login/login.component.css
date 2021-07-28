@@ -1,0 +1,24 @@
+.checkbox-setting{
+
+  width: 16px;
+  height: 16px;
+}
+.label-color,p{
+  color: black;
+  font-size: 14px;
+line-height: 19px;
+}
+input{
+  border-radius: 10px;
+}
+.main-wrapper{
+  width: 50%;
+}
+@media (max-width: 575.98px) {
+  button{
+    width: 100%;
+  }
+  .main-wrapper{
+    width: 100%;
+  }
+}

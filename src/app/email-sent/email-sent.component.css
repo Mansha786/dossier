@@ -1,0 +1,15 @@
+p{
+  color: #1F295A;
+  font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+}
+button{
+cursor: pointer;
+width: 221px;
+height: 39px;
+border: none;
+color: white;
+background: #455ECE;
+border-radius: 10px;
+}

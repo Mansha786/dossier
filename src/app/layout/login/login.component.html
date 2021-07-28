@@ -1,0 +1,36 @@
+<div class="container-fluid">
+
+  <div class="main-wrapper mx-auto">
+  <div class="text-center signup pt-5  ">
+    <h1 class="font-weight-bold">Log In</h1>
+  </div>
+  <br>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control"  aria-describedby="emailHelp" formControlName="email" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <div class="d-flex my-container">
+      <input type="password" class="form-control myInput" formControlName="password" >
+    <img src="assets/images/unlock.png" class="unlock pr-3">
+    </div>
+
+  </div>
+  <div class="form-check d-inline">
+    <input type="checkbox" class="form-check-input checkbox-setting" >
+    <label class="form-check-label label-color" >Remember me</label>
+  </div>
+<br>
+<div class="text-center pt-4">
+  <button type="submit" class="button text-center"><span class="btn-text">Log In</span></button>
+
+</div>
+</form>
+
+<div class="text-center pt-2">
+  <a (click)="handleForgot()" style="cursor: pointer;">Forgot Password</a>
+</div>
+</div>
+</div>

@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  font-family: 'Red Hat Display';
+  background-color: #DAE5F6;
+  color: #1F295A;
+  font-weight: 400;
+}
+
+.button{
+  height: 39px;
+  width: 194px;
+border: none;
+  border-radius: 10px;
+  padding: 10px, 45px, 10px, 45px;
+  background: #D1DEFF;
+  cursor: pointer;
+}
+label{
+  margin-left: 20px;
+  color: #9D9D9D;
+  font-family: Red Hat Display;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.btn-text{
+  font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+font-weight: 700;
+
+color: #7086AB;
+}
+input{
+  border-radius: 10px;
+  height: 50px;
+}
+.my-container{
+  background: white;
+  align-items: center;
+  border-radius: 10px;
+  }
+  .myInput{
+    background: transparent;
+    outline: none;
+    border: 0;
+  }
+  form .form-control:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+  }
